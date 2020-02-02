@@ -11,7 +11,8 @@ public class OperandFactory {
     public static Operand create(int value, OperandType type) {
         switch (type) {
             case ROMAN:
-                return new OperandRoman(value);
+//                return new OperandRoman(value);
+                throw new IllegalStateException("Not yet implemented");
             case ARABIC:
                 return new OperandArabic(value);
             default:
