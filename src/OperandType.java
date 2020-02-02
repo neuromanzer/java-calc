@@ -1,4 +1,5 @@
 public enum OperandType {
     ARABIC,
-    ROMAN
+    ROMAN,
+    UNKNOWN
 }

@@ -5,6 +5,7 @@ public class OperandRoman extends Operand {
 
     public OperandRoman(int value) {
         this();
+        this.value = value;
     }
 
     public OperandRoman(String string) {
